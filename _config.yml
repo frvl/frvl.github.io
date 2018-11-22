@@ -5,11 +5,11 @@ baseurl: ''
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/me.jpg"
+  logo: "/images/me.png"
   # author will appear under the avatar (optional)
   author: "Filep-Rudamas Vahid-László"
   # tagline will appear under the title (optional)
-  tagline: <a href='http://apaczai.ro'>Student</a>, <a href='http://pexels.frvl.me'>photographer</a>, <a href='https://blog.frvl.me'>blogger</a>, done some cool projects around here.
+  tagline: <a href='http://apaczai.ro'>Student</a>, <a href='https://www.pexels.com/@vahid-laszlo-filep-rudamas-82719'>person-with-a-camera</a>, <a href='https://write.as/frvl'>blogger</a>, done some stuff (so far).
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
