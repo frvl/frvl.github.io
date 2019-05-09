@@ -1,0 +1,203 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", "New York", "DejaVu serif", serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 100%;
+	margin: 1em;
+	line-height: 1.8;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+abbr {
+	border-bottom: 1px dotted #999;
+	cursor: help;
+	padding-bottom: 0.1em;
+	text-decoration: none;
+}
+code {
+	font-family: Monaco, Menlo, 'Ubuntu Mono', Consolas, source-code-pro, monospace;
+	font-size: 1em;
+}
+code.highlight {
+	background: #191919;
+    padding: 0.25em 0.5em;
+    border: 1px solid #444;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    border-radius: 0.2em;
+}
+#wrap {
+	text-align: left;
+	max-width: 36em;
+	margin: 4em auto;
+}
+#wrap.wide {
+	max-width: 45em;
+}
+h1 img {
+	height: 1.5em;
+	vertical-align: middle;
+	margin-right: 0.25em;
+	margin-top: -0.25em;
+	margin-left: -0.75em;
+}
+h1 a:hover {
+	text-decoration: none;
+}
+img#trophy {
+	width: 109px;
+	height: 160px;
+}
+img#trophy:hover {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+a:link, a:visited {
+	color: #4a9dc9;
+	text-decoration: none;
+}
+a:active { color: #ccc; }
+a:hover { text-decoration: underline; }
+p, ul, ol {
+/*	text-indent: 1.5em;*/
+	font-family: 'Open Sans', Ubuntu, Helvetica, Calibri, Tahoma, Verdana, Arial, sans-serif;
+}
+blockquote {
+	background: #f9f9f9;
+	padding: 0.5em 2em;
+	border-radius: 0.5em;
+	margin: 2em 0;
+}
+ul, ol { 
+	margin: 0 0 0 1.5em;
+	padding: 0 0 0 1em;
+	list-style-position: inside;
+	list-style-type: circle;
+	line-height: 1.5;
+}
+ul {
+	text-indent: -1.5em;
+}
+ol {
+	text-indent: -1.25em;
+}
+ol li, ul li {
+	line-height: 1.8;
+}
+ul li + li, ol li + li {
+	margin-top: 0.5em;
+}
+ol {
+	list-style-type: upper-latin;
+}
+ul ul {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	list-style-type: disc;
+}
+hr {
+	margin: 4em 2em;
+	background-color: #ccc;
+	height: 1px;
+	border: 0;
+}
+h1, h2, h3 {
+	margin: 1.75em 0;
+	color: #28d78b;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+body#longform h2, body#longform h3 {
+	text-align: center;
+}
+body#longform p.space {
+	margin-top: 4em;
+}
+h1 {
+	margin-bottom: 1em;
+}
+h3 {
+	color: #52ad84;
+	margin: 1.25em 0 1.25em 1em;
+}
+.semantics {
+	display: none;
+}
+s {
+	color: #ccc;
+}
+.self { color: #aaa; font-style: italic; }
+.self.summary {
+	text-indent: 0;
+	text-align: center;
+	font-size: 0.9em;
+}
+p.stars + .self.summary {
+	margin-top: -2em;
+	margin-bottom: 3em;
+}
+p.stars { text-indent: 0;text-align: center; font-size: 1.2em; margin: 4em 0; color: #999; }
+p.source {
+	font-style: italic;
+}
+footer nav {
+	font-size: 1.2em;
+	text-align: center;
+}
+footer nav a {
+	display: table;
+    margin: 0.5em auto;
+}
+.reading-date {
+	color: #999;
+	margin-left: 0.5em;
+	font-style: italic;
+	font-size: 0.86em;
+}
+table td {
+	padding-right: 0.5em;
+}
+td.total-label {
+	text-align: right;
+	font-style: italic;
+	color: #666;
+}
+td.total-label + td {
+	font-weight: bold;
+}
+td.task {
+	font-size: 0.86em;
+}
+
+.day li.d {
+	font-weight: bold;
+	list-style: none;
+	font-size: 1.1em;
+}
+.day li.d em {
+	font-weight: normal;
+	color: #999;
+}
+.day .t {
+	color: #666;
+}
+.day .run {
+	color: orange;
+}
+
+body.dark {
+	background: #1e1e1e;
+	color: white;
+}
+body.dark h2 {
+	font-weight: normal; 
+	font-size: 2em; 
+	margin: 0.5em 0em;
+}
+body.dark h3 {
+	margin: 1em;
+}
