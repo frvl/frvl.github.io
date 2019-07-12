@@ -19,7 +19,7 @@ code {
 	font-size: 1em;
 }
 code.highlight {
-	background: #191919;
+	background: #0c0c0c;
     padding: 0.25em 0.5em;
     border: 1px solid #444;
     margin-left: 0.25em;
@@ -57,7 +57,7 @@ img#trophy:hover {
 	-ms-filter: "FlipH";
 }
 a:link, a:visited {
-	color: #4a9dc9;
+	color: #2e7499;
 	text-decoration: none;
 }
 a:active { color: #ccc; }
@@ -72,7 +72,7 @@ blockquote {
 	border-radius: 0.5em;
 	margin: 2em 0;
 }
-ul, ol { 
+ul, ol {
 	margin: 0 0 0 1.5em;
 	padding: 0 0 0 1em;
 	list-style-position: inside;
@@ -107,7 +107,7 @@ hr {
 }
 h1, h2, h3 {
 	margin: 1.75em 0;
-	color: #28d78b;
+	color: #30e07a;
 	font-weight: normal;
 	letter-spacing: 1px;
 }
@@ -121,7 +121,7 @@ h1 {
 	margin-bottom: 1em;
 }
 h3 {
-	color: #52ad84;
+	color: #008a93;
 	margin: 1.25em 0 1.25em 1em;
 }
 .semantics {
@@ -180,10 +180,10 @@ td.task {
 }
 .day li.d em {
 	font-weight: normal;
-	color: #999;
+	color: #898989;
 }
 .day .t {
-	color: #666;
+	color: #5b5b5b;
 }
 .day .run {
 	color: orange;
@@ -194,8 +194,8 @@ body.dark {
 	color: white;
 }
 body.dark h2 {
-	font-weight: normal; 
-	font-size: 2em; 
+	font-weight: normal;
+	font-size: 2em;
 	margin: 0.5em 0em;
 }
 body.dark h3 {
